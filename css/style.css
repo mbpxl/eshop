@@ -142,12 +142,36 @@ body {
   padding: 0 33px;
 }
 
+.header__right-bin {
+  position: relative;
+}
+
+.header__right-bin-count {
+  position: absolute;
+  top: -5px;
+  right: -12px;
+  width: 19px;
+  height: 19px;
+  background-color: #ef5b70;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-size: 12px;
+  z-index: 50;
+}
+
 .header__nav {
   position: absolute;
   top: 75px;
   right: -100%;
-  -webkit-transition: 0.222s;
-  transition: 0.222s;
   overflow: auto;
 }
 
@@ -171,6 +195,8 @@ body {
 .nav {
   max-width: 232px;
   background-color: #fff;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
 }
 
 .nav__wrap {
@@ -553,6 +579,8 @@ body {
 
 .catalog__card {
   max-width: 360px;
+  cursor: pointer;
+  background: #f8f8f8;
 }
 
 .catalog__card h4 {
