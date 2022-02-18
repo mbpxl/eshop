@@ -387,6 +387,8 @@ details > summary::-webkit-details-marker {
         font-weight: 600;
         font-size: 14px;
         line-height: 121%;
+
+        user-select: none;
     }
 
     &__logo {
@@ -424,6 +426,8 @@ details > summary::-webkit-details-marker {
 
         border-left: 5px solid #ef5b70;
         border-bottom: 1px solid #ebebeb;
+
+        user-select: none;
     }
 
     &__sub:last-child > summary {
@@ -484,6 +488,7 @@ details > summary::-webkit-details-marker {
         font-size: 14px;
         line-height: 121%;
         color: #6f6e6e;
+        user-select: none;
     }
 
     @media (max-width: 425px) {
@@ -521,6 +526,7 @@ details > summary::-webkit-details-marker {
         font-size: 14px;
         line-height: 121%;
         color: #6f6e6e;
+        user-select: none;
     }
 
     @media (max-width: 425px) {
@@ -566,6 +572,7 @@ details > summary::-webkit-details-marker {
         font-size: 14px;
         line-height: 121%;
         color: #6f6e6e;
+        user-select: none;
     }
 
     @media (max-width: 425px) {
