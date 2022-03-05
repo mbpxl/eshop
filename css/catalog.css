@@ -681,11 +681,12 @@ details > summary::-webkit-details-marker {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+  max-width: 100%;
 }
 
 .catalog__bgc {
   background: #f7e4e2;
-  width: 360px;
+  max-width: 360px;
   min-height: 420px;
   display: -webkit-box;
   display: -ms-flexbox;

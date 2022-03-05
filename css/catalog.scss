@@ -650,12 +650,13 @@ details > summary::-webkit-details-marker {
         img {
             object-fit: cover;
             object-position: center;
+            max-width: 100%;
         }
     }
 
     &__bgc {
         background: #f7e4e2;
-        width: 360px;
+        max-width: 360px;
         min-height: 420px;
         display: flex;
         justify-content: center;
