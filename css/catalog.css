@@ -929,7 +929,9 @@ details > summary::-webkit-details-marker {
 }
 
 .follow {
-  background-color: #f3f3f3;
+  background-image: url(..//img/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .follow__container {
