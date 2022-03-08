@@ -785,6 +785,19 @@ body {
     background-image: url(..//img/back.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+    @media (max-width: 768px) {
+        & {
+            background-position-x: -200px;
+        }
+    }
+
+    @media (max-width: 425px) {
+        & {
+            background-position-x: -400px;
+        }
+    }
+
     &__container {
         display: flex;
         justify-content: space-between;

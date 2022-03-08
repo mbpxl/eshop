@@ -934,6 +934,18 @@ details > summary::-webkit-details-marker {
   background-size: cover;
 }
 
+@media (max-width: 768px) {
+  .follow {
+    background-position-x: -200px;
+  }
+}
+
+@media (max-width: 425px) {
+  .follow {
+    background-position-x: -400px;
+  }
+}
+
 .follow__container {
   display: -webkit-box;
   display: -ms-flexbox;
