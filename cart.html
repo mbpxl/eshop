@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>E-SHOP</title>
-    <script src="https://kit.fontawesome.com/e36acc9da7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/cart.css">
+    <title>Cart</title>
 </head>
 
 <body>
@@ -82,209 +81,76 @@
         </header>
 
         <main class="main">
-            <section class="intro">
-                <div class="intro__container _container">
-
-                    <div class="intro__text">
-                        <h1><span class="intro__text-heading">THE BRAND</span><br> OF LUXERIOUS <span
-                                class="intro__text-red">FASHION</span></h1>
+            <section class="news">
+                <div class="news__container _container">
+                    <div class="news__title">
+                        <h1>SHOPPING CART</h1>
                     </div>
                 </div>
             </section>
 
-            <section class="sales">
-                <div class="sales__container _container">
-                    <div class="sales__wrap">
-                        <div class="sales__women">
-                            <h3>30% OFF</h3>
-                            <h2>FOR WOMEN</h2>
-                        </div>
-                        <div class="sales__men">
-                            <h3>HOT DEAL</h3>
-                            <h2>FOR MEN</h2>
-                        </div>
-                        <div class="sales__kids">
-                            <h3>NEW ARRIVALS</h3>
-                            <h2>FOR KIDS</h2>
-                        </div>
-                    </div>
+            <section class="order">
+                <div class="order__container _container">
+                    <div class="order__cart cart">
+                        <div class="cart__buy">
+                            <div class="cart__upper">
+                                <img src="img/photo-cart1.jpg" class="cart__photo" alt="cart">
+                                <div class="cart__description">
+                                    <div class="cart__title">
+                                        <h2>MANGO PEOPLE T-SHIRT</h2>
+                                        <img src="img/close.svg" alt="close">
+                                    </div>
 
-                    <div class="sales__acs">
-                        <h3>LUXERIOUS & TRENDY</h3>
-                        <h2>ACCESORIES</h2>
-                    </div>
-                </div>
-            </section>
+                                    <h3 class="cart__price">Price: <span>$300</span></h3>
+                                    <h3 class="cart__color">Color: <span>Red</span></h3>
+                                    <h3 class="cart__size">Size: <span>XI</span></h3>
+                                    <div class="cart__quantity">
+                                        <h3>Quantity</h3>
+                                        <input type="text" class="cart__form" value="2">
+                                    </div>
+                                </div>
+                            </div>
 
-            <section class="heading">
-                <div class="heading__container _container">
-                    <h4>Fetured Items</h4>
-                    <p>Shop for items based on what we featured in this week</p>
-                </div>
-            </section>
+                            <div class="cart__lover">
+                                <img src="img/photo-cart2.jpg" class="cart__photo" alt="cart">
+                                <div class="cart__description">
+                                    <div class="cart__title">
+                                        <h2>MANGO PEOPLE T-SHIRT</h2>
+                                        <img src="img/close.svg" alt="close">
+                                    </div>
 
-            <section class="catalog">
-                <div class="catalog__container _card-container">
-                    <div class="catalog__card">
-                        <div class="catalog__img">
-                            <img src="img/card-1.jpg" alt="card-photo">
-                            <div class="catalog__overlay">
-                                <a href="cart.html">
-                                    <img src="img/bin-card.svg" alt="bin">
-                                    <p>Add to Cart</p>
-                                </a>
+                                    <h3 class="cart__price">Price: <span>$300</span></h3>
+                                    <h3 class="cart__color">Color: <span>Red</span></h3>
+                                    <h3 class="cart__size">Size: <span>XI</span></h3>
+                                    <div class="cart__quantity">
+                                        <h3>Quantity</h3>
+                                        <input type="text" class="cart__form" value="2">
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <h4>ELLERY X M'O CAPSULE</h4>
-                        <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
-                            Ellery teams up with Moda
-                            Operandi.
-                        </p>
-                        <h3>$52.00</h3>
+                        <div class="cart__function function">
+                            <button class="function__btn">CLEAR SHOPPING CART</button>
+                            <button class="function__btn">CONTINUE SHOPPING</button>
+                        </div>
                     </div>
-                    <div class="catalog__card">
-                        <div class="catalog__background catalog__img">
-                            <img src="img/card-2.png" alt="card-photo">
-                            <div class="catalog__overlay">
-                                <a href="cart.html">
-                                    <img src="img/bin-card.svg" alt="bin">
-                                    <p>Add to Cart</p>
-                                </a>
+
+                    <div class="order__data data">
+                        <h2 class="data__title">SHIPPING ADRESS</h2>
+                        <input type="text" placeholder="City">
+                        <input type="text" class="data__config" placeholder="State">
+                        <input type="text" placeholder="Postcode / Zip">
+
+                        <button>GET A QUOTE</button>
+
+                        <div class="data__global">
+                            <h3>sub total <span>$900</span></h3>
+                            <h4>GRAND TOTAL <span>$900</span></h4>
+                            <div class="data__bd">
+                                <div class="data__border"></div>
                             </div>
-                        </div>
-
-                        <h4>ELLERY X M'O CAPSULE</h4>
-                        <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
-                            Ellery teams up with Moda
-                            Operandi.
-                        </p>
-                        <h3>$52.00</h3>
-
-                    </div>
-                    <div class="catalog__card">
-                        <div class="catalog__img">
-                            <img src="img/card-3.jpg" alt="card-photo">
-                            <div class="catalog__overlay">
-                                <a href="cart.html">
-                                    <img src="img/bin-card.svg" alt="bin">
-                                    <p>Add to Cart</p>
-                                </a>
-                            </div>
-                        </div>
-
-                        <h4>ELLERY X M'O CAPSULE</h4>
-                        <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
-                            Ellery teams up with Moda
-                            Operandi.
-                        </p>
-                        <h3>$52.00</h3>
-                    </div>
-                    <div class="catalog__card">
-                        <div class="catalog__img">
-                            <img src="img/card-4.jpg" alt="card-photo">
-                            <div class="catalog__overlay">
-                                <a href="cart.html">
-                                    <img src="img/bin-card.svg" alt="bin">
-                                    <p>Add to Cart</p>
-                                </a>
-                            </div>
-                        </div>
-
-                        <h4>ELLERY X M'O CAPSULE</h4>
-                        <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
-                            Ellery teams up with Moda
-                            Operandi.
-                        </p>
-                        <h3>$52.00</h3>
-                    </div>
-
-                    <div class="catalog__card">
-                        <div class="catalog__img">
-                            <img src="img/card-5.jpg" alt="card-photo">
-                            <div class="catalog__overlay">
-                                <a href="cart.html">
-                                    <img src="img/bin-card.svg" alt="bin">
-                                    <p>Add to Cart</p>
-                                </a>
-                            </div>
-                        </div>
-
-                        <h4>ELLERY X M'O CAPSULE</h4>
-                        <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
-                            Ellery teams up with Moda
-                            Operandi.
-                        </p>
-                        <h3>$52.00</h3>
-                    </div>
-
-                    <div class="catalog__card">
-                        <div class="catalog__img">
-                            <img src="img/card-6.jpg" alt="card-photo">
-                            <div class="catalog__overlay">
-                                <a href="cart.html">
-                                    <img src="img/bin-card.svg" alt="bin">
-                                    <p>Add to Cart</p>
-                                </a>
-                            </div>
-                        </div>
-
-                        <h4>ELLERY X M'O CAPSULE</h4>
-                        <p>Known for her sculptural takes on traditional tailoring, Australian arbiter of cool Kym
-                            Ellery teams up with Moda
-                            Operandi.
-                        </p>
-                        <h3>$52.00</h3>
-                    </div>
-                </div>
-            </section>
-
-            <section class="see-all">
-                <div class="see-all__container _container">
-                    <a href="catalog.html">
-                        Browse All Product
-                    </a>
-                </div>
-            </section>
-
-            <section class="advantage">
-                <div class="advantage__container _container">
-                    <div class="advantage__delivery delivery">
-                        <div class="advantage__img">
-                            <img src="img/delivery.svg" alt="delivery">
-                        </div>
-                        <div class="advantage__title">
-                            <h4>Free Delivery</h4>
-                        </div>
-                        <div class="advantage__text">
-                            <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with
-                                extensive models.</p>
-                        </div>
-                    </div>
-
-                    <div class="advantage__sales sales">
-                        <div class="advantage__img">
-                            <img src="img/sales.svg" alt="sales">
-                        </div>
-                        <div class="advantage__title">
-                            <h4>Sales & discounts</h4>
-                        </div>
-                        <div class="advantage__text">
-                            <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with
-                                extensive models.</p>
-                        </div>
-                    </div>
-
-                    <div class="advantage__quality quality">
-                        <div class="advantage__img">
-                            <img src="img/crown.svg" alt="quality">
-                        </div>
-                        <div class="advantage__title">
-                            <h4>Quality assurance</h4>
-                        </div>
-                        <div class="advantage__text">
-                            <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with
-                                extensive models.</p>
+                            <button>PROCEED TO CHECKOUT</button>
                         </div>
                     </div>
                 </div>
