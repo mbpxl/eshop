@@ -391,6 +391,23 @@ body {
         line-height: 121%;
         color: #ffffff;
         background: #f16d7f;
+        border: 2px solid #f16d7f;
+
+        cursor: pointer;
+        transition: 0.32s;
+
+        svg > path {
+            transition: 0.32s;
+        }
+    }
+
+    button:hover {
+        background-color: #fff;
+        color: #f16d7f;
+    }
+
+    button:hover .form__img {
+        fill: #f16d7f;
     }
 
     @media (max-width: 510px) {
